@@ -1,0 +1,87 @@
+/* Desktop */
+.nav {
+  width: auto;
+  padding: 15px 10px;
+  border-radius: 5px;
+}
+
+.nav li a {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+.nav li a:hover {
+  color: var(--color-btn-hover);
+}
+
+/* Mobile */
+@media (max-width: 575.98px) {
+  .nav .mb-nav {
+    background-color: var(--color-bg);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+  }
+
+  .nav .mb-nav li a {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .nav .mb-nav li a:hover {
+    color: var(--color-btn-hover);
+  }
+
+  .responsive-menu {
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+
+/* Tablet dọc: từ 576px đến 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* CSS cho tablet chiều dọc */
+}
+
+/* Tablet ngang / small laptops: từ 768px đến 991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav .mb-nav {
+    background-color: var(--color-bg);
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+  }
+
+  .nav .mb-nav li a {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .nav .mb-nav li a:hover {
+    color: var(--color-btn-hover);
+  }
+
+  .responsive-menu {
+    font-size: 25px;
+    cursor: pointer;
+  }
+}
+
+/* Desktop: từ 992px đến 1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* CSS cho desktop tiêu chuẩn */
+}
+
+/* Large screens: 1200px trở lên */
+@media (min-width: 1200px) {
+  .responsive-menu {
+    display: none;
+  }
+}

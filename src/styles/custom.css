@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+/* Default variables (fallback) */
+:root {
+  --color-bg: #ffffff;
+  --color-nav: #ecebf0;
+  --color-nav-hover: #ecebf0ec;
+  --color-text: #000000;
+  --color-btn: #fb8500;
+  --color-btn-hover: #ffb703;
+}
+
+body.light {
+  width: auto;
+  --color-bg: #ffffff;
+  --color-nav: #ecebf0;
+  --color-nav-hover: #ecebf0ec;
+  --color-text: #000000;
+  --color-btn: #fb8500;
+  --color-btn-hover: #ffb703;
+}
+
+body.dark {
+  width: auto;
+  --color-bg: #1e1e1e;
+  --color-text: #ffffff;
+}
+
+body.blue {
+  width: auto;
+  --color-bg: #0d3b66;
+  --color-text: #faf0ca;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
