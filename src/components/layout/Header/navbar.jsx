@@ -38,27 +38,26 @@ export function Hamburgur({ isOpen, setIsOpen }) {
 export function Navbar({ isOpen }) {
   const navVariants = {
     open: {
-      x: 0,
       transition: {
         when: "beforeChildren",
         staggerChildren: 0.05,
-        staggerDirection: 1 // mở lần lượt từ trên xuống
+        staggerDirection: 1
       }
     },
     closed: {
-      x: "-100%",
       transition: {
         when: "afterChildren",
         staggerChildren: 0.05,
-        staggerDirection: -1 // đóng ngược thứ tự từ dưới lên
+        staggerDirection: -1
       }
     }
   };
 
   const itemVariants = {
     open: { opacity: 1, x: 0 },
-    closed: { opacity: 0, x: -20 }
+    closed: { opacity: 0, x: -40 }
   };
+
   return (
     <>
       {/* Desktop nav */}
@@ -77,22 +76,11 @@ export function Navbar({ isOpen }) {
       {/* Mobile nav */}
       <AnimatePresence>
         {isOpen && (
-          <motion.nav className={cx("nav")}>
+          <motion.nav className={cx("nav")} variants={navVariants} initial="closed" animate="open" exit="closed">
             <ul className={cx("mb-nav")} style={{ listStyle: "none", padding: 0 }}>
               {navItems.map((item, index) => {
                 return (
-                  <motion.li
-                    key={index}
-                    variants={itemVariants}
-                    initial="closed"
-                    animate="open"
-                    exit="closed"
-                    style={{ marginBottom: 10 }}
-                    transition={{
-                      duration: 0.05,
-                      delay: isOpen ? index * 0.1 : (totalItems - 1 - index) * 0.1
-                    }}
-                  >
+                  <motion.li key={index} variants={itemVariants}>
                     <a href={item.href}>{item.name}</a>
                   </motion.li>
                 );
