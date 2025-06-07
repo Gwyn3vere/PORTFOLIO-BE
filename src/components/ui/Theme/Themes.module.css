@@ -1,20 +1,22 @@
 @import "tailwindcss";
 
-.theme {
+/* .theme {
   background-color: aqua;
-}
+} */
 
 .list {
-  width: 140px;
-  height: 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   padding: 5px 10px;
+  align-items: center;
+  justify-items: center;
 }
 
 .light-theme,
 .dark-theme,
 .blue-theme {
-  width: 30px;
-  height: 30px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -29,6 +31,6 @@
   background-color: #007bff;
 }
 
-/* .light-theme.active {
-  border: 2px dashed red;
-} */
+.active {
+  border: 3px solid var(--color-btn);
+}

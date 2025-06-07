@@ -4,38 +4,57 @@
 /* Default variables (fallback) */
 :root {
   --color-bg: #ffffff;
-  --color-nav: #ecebf0;
+  --color-nav: #f1f1f1;
+  --color-upgrade: #afafaf;
+  --color-text-upgrade: #1e1e1e;
   --color-nav-hover: #ecebf0ec;
+  --color-hover: #ecebf0ec;
   --color-text: #000000;
   --color-btn: #fb8500;
-  --color-btn-hover: #ffb703;
+  --color-btn-hover: #fb8500;
+  --color-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-body.light {
+html.light {
   width: auto;
   --color-bg: #ffffff;
-  --color-nav: #ecebf0;
+  --color-nav: #f1f1f1;
+  --color-upgrade: #afafaf;
   --color-nav-hover: #ecebf0ec;
-  --color-text: #000000;
+  --color-hover: #ecebf0ec;
+  --color-text: #1e1e1e;
   --color-btn: #fb8500;
   --color-btn-hover: #ffb703;
 }
 
-body.dark {
+html.dark {
   width: auto;
   --color-bg: #1e1e1e;
+  --color-nav: #252525;
+  --color-nav-hover: #fb8500;
+  --color-hover: #252525;
   --color-text: #ffffff;
 }
 
-body.blue {
+html.blue {
   width: auto;
   --color-bg: #0d3b66;
-  --color-text: #faf0ca;
+  --color-nav: #0f4170;
+  --color-text: #ffffff;
 }
 
-body {
+html {
   font-family: "Roboto", sans-serif;
   background-color: var(--color-bg);
   color: var(--color-text);
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input[type="search"] {
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
 }

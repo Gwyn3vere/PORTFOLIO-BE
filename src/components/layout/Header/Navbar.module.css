@@ -46,11 +46,14 @@
 
 /* Tablet dọc: từ 576px đến 767.98px */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* CSS cho tablet chiều dọc */
 }
 
 /* Tablet ngang / small laptops: từ 768px đến 991.98px */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .nav {
+    padding: 0;
+  }
+
   .nav .mb-nav {
     background-color: rgba(0, 0, 0, 0.253);
     position: absolute;

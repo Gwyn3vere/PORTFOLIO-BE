@@ -1,20 +1,19 @@
-import { useState } from "react";
 // Libraries
 import { motion, AnimatePresence } from "framer-motion";
 import classNames from "classnames/bind";
+import { useTranslation } from "react-i18next";
 // CSS
 import styles from "./Navbar.module.css";
 // React icons
 import { TbMenu2, TbX } from "react-icons/tb";
 
 const cx = classNames.bind(styles);
-
 const navItems = [
-  { name: "Explore", href: "/explore" },
-  { name: "Docs", href: "/docs" },
-  { name: "About", href: "/about" },
-  { name: "Blog", href: "/blog" },
-  { name: "Contract", href: "/contract" }
+  { name: "explore", href: "/explore", icon: "" },
+  { name: "docs", href: "/docs", icon: "" },
+  { name: "about", href: "/about", icon: "" },
+  { name: "blog", href: "/blog", icon: "" },
+  { name: "contract", href: "/contract", icon: "" }
 ];
 
 export function Hamburgur({ isOpen, setIsOpen }) {
@@ -36,6 +35,7 @@ export function Hamburgur({ isOpen, setIsOpen }) {
 }
 
 export function Navbar({ isOpen }) {
+  const { t } = useTranslation();
   const navVariants = {
     open: {
       transition: {
@@ -62,11 +62,11 @@ export function Navbar({ isOpen }) {
     <>
       {/* Desktop nav */}
       <nav className={cx("nav")}>
-        <ul className="hidden block md:hidden lg:flex gap-3">
+        <ul className="hidden block md:hidden lg:flex gap-5">
           {navItems.map((item, index) => {
             return (
               <li key={index}>
-                <a href={item.href}>{item.name}</a>
+                <a href={item.href}>{t(`navbar.${item.name}`)}</a>
               </li>
             );
           })}
@@ -81,7 +81,7 @@ export function Navbar({ isOpen }) {
               {navItems.map((item, index) => {
                 return (
                   <motion.li key={index} variants={itemVariants}>
-                    <a href={item.href}>{item.name}</a>
+                    <a href={item.href}>{t(`navbar.${item.name}`)}</a>
                   </motion.li>
                 );
               })}

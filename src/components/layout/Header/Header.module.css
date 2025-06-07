@@ -26,42 +26,6 @@
   color: var(--color-btn);
 }
 
-/* User menu - icons - avatar - btn*/
-.icon-menu .icon {
-  font-size: 25px;
-  cursor: pointer;
-}
-
-.avatar .avatar-image {
-  background-color: aqua;
-  border-radius: 50%;
-}
-
-.avatar .avatar-image img {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.premium-btn .btn {
-  background-color: var(--color-nav);
-  width: 120px;
-  height: 45px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.premium-btn .btn:hover {
-  background-color: var(--color-nav-hover);
-}
-
-.premium-btn .btn span {
-  text-transform: uppercase;
-  font-size: 15px;
-  font-weight: bolder;
-}
-
 /* Response media */
 /* Mobile: nhỏ hơn 576px */
 @media (max-width: 575.98px) {
@@ -77,10 +41,6 @@
     font-weight: 900;
     color: var(--color-btn);
   }
-
-  .premium-btn {
-    display: none;
-  }
 }
 
 /* Tablet dọc: từ 576px đến 767.98px */
@@ -94,10 +54,6 @@
     padding: 10px 10px;
     width: 100%;
     height: 70px;
-  }
-
-  .premium-btn {
-    display: none;
   }
 }
 
