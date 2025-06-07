@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "explore": "khám phá",
+    "docs": "tài liệu",
+    "about": "về chúng tôi",
+    "blog": "blog",
+    "contract": "liên hệ"
+  },
+  "user_menu": {
+    "search portfolios, creators, or projects...": "Tìm kiếm portfolio, người sáng tạo hoặc dự án...",
+
+    "view profile": "Xem hồ sơ",
+    "upgrade pro": "Nâng cấp pro",
+
+    "my favorites": "Yêu thích",
+    "my collections": "Bộ sưu tập",
+    "my friends": "Bạn bè",
+    "my portfolio": "Portfolio của tôi",
+    "my blogs": "Blog của tôi",
+    "my history": "Lịch sử của tôi",
+
+    "theme": "Chủ đề",
+
+    "language": "Ngôn ngữ",
+    "english": "Tiếng Anh",
+    "vietnamese": "Tiếng Việt",
+
+    "settings": "Cài đặt",
+    "help center": "Trung tâm trợ giúp",
+    "logout": "Đăng xuất"
+  }
+}

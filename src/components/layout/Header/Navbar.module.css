@@ -18,11 +18,12 @@
 /* Mobile */
 @media (max-width: 575.98px) {
   .nav .mb-nav {
-    background-color: var(--color-bg);
+    background-color: rgba(0, 0, 0, 0.253);
     position: absolute;
     top: 70px;
     left: 0;
     width: 100%;
+    height: 100vh;
   }
 
   .nav .mb-nav li a {
@@ -30,6 +31,7 @@
     width: 100%;
     height: auto;
     padding: 15px 10px;
+    background-color: var(--color-bg);
   }
 
   .nav .mb-nav li a:hover {
@@ -44,17 +46,21 @@
 
 /* Tablet dọc: từ 576px đến 767.98px */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  /* CSS cho tablet chiều dọc */
 }
 
 /* Tablet ngang / small laptops: từ 768px đến 991.98px */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .nav {
+    padding: 0;
+  }
+
   .nav .mb-nav {
-    background-color: var(--color-bg);
+    background-color: rgba(0, 0, 0, 0.253);
     position: absolute;
     top: 70px;
     left: 0;
     width: 100%;
+    height: 100vh;
   }
 
   .nav .mb-nav li a {
@@ -62,6 +68,7 @@
     width: 100%;
     height: auto;
     padding: 15px 10px;
+    background-color: var(--color-bg);
   }
 
   .nav .mb-nav li a:hover {

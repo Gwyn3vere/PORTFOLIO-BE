@@ -1,0 +1,32 @@
+{
+  "navbar": {
+    "explore": "Explore",
+    "docs": "Docs",
+    "about": "About",
+    "blog": "Blog",
+    "contract": "Contract"
+  },
+  "user_menu": {
+    "search portfolios, creators, or projects...": "Search portfolios, creators, or projects...",
+
+    "view profile": "View Profile",
+    "upgrade pro": "Upgrade Pro",
+
+    "my favorites": "My Favorites",
+    "my collections": "My Collections",
+    "my friends": "My Friends",
+    "my portfolio": "My Portfolio",
+    "my blogs": "My Blogs",
+    "my history": "My History",
+
+    "theme": "Theme",
+
+    "language": "Language",
+    "english": "English",
+    "vietnamese": "Vietnamese",
+
+    "settings": "Settings",
+    "help center": "Help Center",
+    "logout": "Logout"
+  }
+}
