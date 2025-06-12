@@ -9,6 +9,13 @@
   "user_menu": {
     "search portfolios, creators, or projects...": "Tìm kiếm portfolio, người sáng tạo hoặc dự án...",
 
+    "messages": "Tin nhắn",
+    "search messages...": "Tìm kiếm tin nhắn...",
+
+    "notifications": "Thông báo",
+    "all": "Tất cả",
+    "unread": "Chưa đọc",
+
     "view profile": "Xem hồ sơ",
     "upgrade pro": "Nâng cấp pro",
 
@@ -28,5 +35,37 @@
     "settings": "Cài đặt",
     "help center": "Trung tâm trợ giúp",
     "logout": "Đăng xuất"
+  },
+  "homepage": {
+    "design": "Thiết kế",
+    "your portfolio": "Portfolio của bạn",
+    "hero description": "Cho dù bạn là designer, developer, nhiếp ảnh gia hay sinh viên đang tìm kiếm cơ hội nghề nghiệp – bạn đều xứng đáng có một không gian để thể hiện bản thân thật chuyên nghiệp.\nChúng tôi giúp bạn tạo portfolio cá nhân một cách đơn giản, nhanh chóng mà vẫn thể hiện được phong cách riêng.",
+    "create effortlessly": "Tạo một cách dễ dàng",
+    "get started": "Bắt đầu ngay",
+    "join community": "Tham gia cộng đồng",
+    "trusted by": "Được tin tưởng bởi",
+    "creators and professionals": "nhà sáng tạo và chuyên gia.",
+
+    "powerful features": "Tính năng mạnh mẽ",
+    "build your portfolio": "Tự do xây dựng portfolio theo cách bạn muốn, không giới hạn.",
+    "build you portfolio description": "Cho dù bạn thích sự tối giản hay điều gì đó táo bạo, bạn có thể hoàn toàn cá nhân hóa trang portfolio của mình — từ bố cục đến nền — với trình chỉnh sửa kéo và thả trực quan và các tùy chọn thiết kế linh hoạt.",
+
+    "drag & drop": "Kéo và Thả",
+    "drag & drop description": "Xây dựng portfolio của bạn một cách dễ dàng bằng cách kéo và thả các phần đã được tạo sẵn. Không cần mã hóa, không căng thẳng — chỉ cần tự do sáng tạo.",
+
+    "custom colors": "Màu sắc tùy chỉnh",
+    "custom colors description": "Chọn màu sắc phù hợp với phong cách hoặc thương hiệu cá nhân của bạn. Dễ dàng điều chỉnh màu văn bản, nền và màu sắc nổi bật chỉ với vài cú nhấp chuột.",
+
+    "background control": "Kiểm soát nền",
+    "background control description": "Cá nhân hóa từng phần với màu sắc đồng nhất, độ chuyển màu hoặc hình ảnh nền tùy chỉnh. Làm cho mọi phần của portfolio của bạn nổi bật.",
+
+    "modular sections": "Các phần mô-đun",
+    "modular sections description": "Thêm, xóa, sắp xếp lại và tùy chỉnh các phần riêng lẻ như 'Giới thiệu', 'Dự án' hoặc 'Lời chứng thực' — portfolio của bạn được xây dựng theo cách của bạn.",
+
+    "multiple styles & layouts": "Nhiều kiểu dáng & bố cục",
+    "multiple styles & layouts description": "Chọn từ các mẫu bố cục hiện đại, tối giản hoặc sáng tạo. Portfolio của bạn thích ứng với thẩm mỹ của bạn — không phải theo cách khác.",
+
+    "responsive design": "Thiết kế đáp ứng",
+    "responsive design description": "Portfolio của bạn trông tuyệt vời trên mọi kích thước màn hình — từ điện thoại đến máy tính để bàn — đảm bảo trải nghiệm tốt nhất cho mọi khách truy cập."
   }
 }

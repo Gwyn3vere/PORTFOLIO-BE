@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Audiowide&family=Charm:wght@400;700&family=Fredericka+the+Great&family=Island+Moments&family=League+Spartan:wght@100..900&family=Modak&family=Oswald:wght@200..700&family=Pacifico&family=Pompiere&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sniglet:wght@400;800&display=swap");
 @import "tailwindcss";
 
 /* Default variables (fallback) */
@@ -18,29 +18,75 @@
 html.light {
   width: auto;
   --color-bg: #ffffff;
+
   --color-nav: #f1f1f1;
-  --color-upgrade: #afafaf;
   --color-nav-hover: #ecebf0ec;
+
+  --color-upgrade: #afafaf;
   --color-hover: #ecebf0ec;
+
   --color-text: #1e1e1e;
+  --color-gradient-text: -webkit-radial-gradient(circle, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
+
   --color-btn: #fb8500;
   --color-btn-hover: #ffb703;
+  --color-btn-gradient: linear-gradient(55deg, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
+
+  --color-glass-bg: rgba(255, 255, 255, 0.25);
+  --color-glass-border: rgba(0, 0, 0, 0.1);
+
+  --color-shine-effect: linear-gradient(
+    45deg,
+    transparent 48%,
+    rgba(180, 180, 180, 0.15) 55%,
+    rgba(255, 255, 255, 0.4) 65%,
+    rgba(180, 180, 180, 0.15) 70%,
+    transparent 75%
+  );
+
+  --color-gradient-glassmorphic: radial-gradient(
+    circle,
+    rgba(0, 132, 255, 0.4) 0%,
+    rgba(0, 90, 180, 0.2) 40%,
+    rgba(15, 15, 27, 1) 100%
+  );
 }
 
 html.dark {
   width: auto;
-  --color-bg: #1e1e1e;
-  --color-nav: #252525;
-  --color-nav-hover: #fb8500;
-  --color-hover: #252525;
-  --color-text: #ffffff;
-}
+  --color-bg: #0f0f1b;
 
-html.blue {
-  width: auto;
-  --color-bg: #0d3b66;
-  --color-nav: #0f4170;
+  --color-nav: #19192c;
+  --color-nav-hover: #1c1c33;
+
+  --color-upgrade: #afafaf;
+  --color-hover: #1c1c33;
+
   --color-text: #ffffff;
+  --color-gradient-text: -webkit-radial-gradient(circle, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
+
+  --color-btn: #fb8500;
+  --color-btn-hover: #ffb703;
+  --color-btn-gradient: linear-gradient(55deg, rgba(240, 196, 0, 1) 56%, rgba(251, 133, 0, 1) 100%);
+
+  --color-glass-bg: rgba(0, 132, 255, 0.08);
+  --color-glass-border: rgba(0, 132, 255, 0.2);
+
+  --color-shine-effect: linear-gradient(
+    45deg,
+    transparent 48%,
+    rgba(255, 255, 255, 0.06) 55%,
+    rgba(255, 255, 255, 0.2) 65%,
+    rgba(255, 255, 255, 0.06) 70%,
+    transparent 75%
+  );
+
+  --color-gradient-glassmorphic: radial-gradient(
+    circle,
+    rgba(0, 132, 255, 0.4) 0%,
+    rgba(0, 90, 180, 0.2) 40%,
+    rgba(15, 15, 27, 1) 100%
+  );
 }
 
 html {

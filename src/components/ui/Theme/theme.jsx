@@ -16,7 +16,6 @@ function ThemeMenu() {
       <div className={cx("list", "flex", "justify-center", "items-center", "gap-2")}>
         <button onClick={() => setTheme("light")} className={cx("light-theme", { active: theme === "light" })}></button>
         <button onClick={() => setTheme("dark")} className={cx("dark-theme", { active: theme === "dark" })}></button>
-        <button onClick={() => setTheme("blue")} className={cx("blue-theme", { active: theme === "blue" })}></button>
       </div>
     </div>
   );

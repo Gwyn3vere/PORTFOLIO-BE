@@ -276,6 +276,7 @@ export function HandleConvertToTimeAgo({ title, data }) {
 }
 
 export function NotificationMenu({ setIsDropdownOpen }) {
+  const { t } = useTranslation();
   const [isFiltered, setIsFiltered] = useState("all");
   const handleFilterChange = (filter) => {
     setIsFiltered(filter);
@@ -304,7 +305,7 @@ export function NotificationMenu({ setIsDropdownOpen }) {
     <div className={cx("notification-menu")}>
       <div className={cx("notification-header")}>
         <div className={cx("notification-title-container")}>
-          <span className={cx("notification-title")}>Notifications</span>
+          <span className={cx("notification-title")}>{t("user_menu.notifications")}</span>
           <button className={cx("notification-three-dots")}>
             <TbDots />
           </button>
@@ -317,13 +318,13 @@ export function NotificationMenu({ setIsDropdownOpen }) {
             </span>
           </button>
           <button className={cx("all-btn", { active: isFiltered === "all" })} onClick={() => handleFilterChange("all")}>
-            All
+            {t("user_menu.all")}
           </button>
           <button
             className={cx("unread-btn", { active: isFiltered === "unread" })}
             onClick={() => handleFilterChange("unread")}
           >
-            Unread
+            {t("user_menu.unread")}
           </button>
         </div>
       </div>
@@ -337,11 +338,12 @@ export function NotificationMenu({ setIsDropdownOpen }) {
 }
 
 export function MessagesMenu({ setIsDropdownOpen }) {
+  const { t } = useTranslation();
   return (
     <div className={cx("messages-menu")}>
       <div className={cx("messages-header")}>
         <div className={cx("messages-title-container")}>
-          <span className={cx("messages-title")}>Messages</span>
+          <span className={cx("messages-title")}>{t("user_menu.messages")}</span>
           <button className={cx("messages-three-dots")}>
             <TbDots />
           </button>
@@ -352,7 +354,11 @@ export function MessagesMenu({ setIsDropdownOpen }) {
               <TbChevronLeft />
             </span>
           </button>
-          <input type="search" placeholder="Search messages..." className={cx("messages-search-input")} />
+          <input
+            type="search"
+            placeholder={t("user_menu.search messages...")}
+            className={cx("messages-search-input")}
+          />
           <button className={cx("messages-search-button")}>
             <TbSearch />
           </button>

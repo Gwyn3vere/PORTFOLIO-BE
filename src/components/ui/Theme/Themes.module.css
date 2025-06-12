@@ -13,8 +13,7 @@
 }
 
 .light-theme,
-.dark-theme,
-.blue-theme {
+.dark-theme {
   width: 35px;
   height: 35px;
   border-radius: 50%;
@@ -25,10 +24,7 @@
   background-color: #f0f0f0;
 }
 .dark-theme {
-  background-color: #333;
-}
-.blue-theme {
-  background-color: #007bff;
+  background-color: #0f0f1b;
 }
 
 .active {

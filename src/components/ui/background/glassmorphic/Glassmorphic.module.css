@@ -1,0 +1,41 @@
+.glassmorphic {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.shape1,
+.shape2,
+.shape3,
+.shape4 {
+  background: var(--color-gradient-glassmorphic);
+}
+
+.shape1 {
+  top: -10%;
+  left: -20%;
+  width: 900px;
+  height: 700px;
+}
+
+.shape2 {
+  top: 5%;
+  right: 8%;
+  width: 900px;
+  height: 900px;
+}
+
+.shape3 {
+  top: 40%;
+  left: -20%;
+  width: 1000px;
+  height: 900px;
+}
+
+.shape4 {
+  top: 70%;
+  right: -20%;
+  width: 800px;
+  height: 800px;
+}

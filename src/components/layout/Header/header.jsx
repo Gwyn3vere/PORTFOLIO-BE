@@ -13,6 +13,7 @@ const cx = classNames.bind(styles);
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
   const dropdownRef = useRef(null);
   useEffect(() => {
     const handleClickOutside = (event) => {

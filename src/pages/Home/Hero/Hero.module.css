@@ -1,0 +1,74 @@
+/* I. Hero section */
+/* .hero-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+/* 1. Hero left content */
+.hero-left .title {
+  font-family: "Prompt", sans-serif;
+  .design {
+    color: var(--color-text);
+  }
+
+  .your-portfolio {
+    background: var(--color-gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.hero-left .buttons {
+  .btn1 {
+    color: var(--color-bg);
+    margin-right: 8px;
+    background: var(--color-btn-gradient);
+    transition: box-shadow 0.3s ease;
+  }
+
+  .btn1:hover {
+    box-shadow: 0 0 20px rgba(251, 133, 0, 1);
+  }
+
+  .btn2 {
+    background: var(--color-glass-bg);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--color-glass-border);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.07);
+  }
+
+  .btn2::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: var(--color-shine-effect);
+    background-size: 200% 100%;
+    background-position: 165% 0;
+    transition: 0.7s;
+  }
+
+  .btn2:hover::after {
+    background-position: -210% 0;
+  }
+}
+
+.hero-left .users {
+  span {
+    color: var(--color-bg);
+    background-color: var(--color-btn);
+  }
+}
+
+.hero-left .social-proof {
+  strong {
+    color: var(--color-text);
+  }
+}
+/* 2. Hero right content */
+.hero-right {
+  width: 700px;
+}

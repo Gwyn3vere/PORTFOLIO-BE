@@ -9,6 +9,13 @@
   "user_menu": {
     "search portfolios, creators, or projects...": "Search portfolios, creators, or projects...",
 
+    "messages": "Messages",
+    "search messages...": "Search messages...",
+
+    "notifications": "Notifications",
+    "all": "All",
+    "unread": "Unread",
+
     "view profile": "View Profile",
     "upgrade pro": "Upgrade Pro",
 
@@ -28,5 +35,37 @@
     "settings": "Settings",
     "help center": "Help Center",
     "logout": "Logout"
+  },
+  "homepage": {
+    "design": "Design",
+    "your portfolio": "Your Portfolio",
+    "hero description": "Whether you're a designer, developer, photographer, or student seeking career opportunities – you deserve a space to showcase yourself professionally.\nWe help you create a personal portfolio easily and quickly while still reflecting your unique style.",
+    "create effortlessly": "Create effortlessly",
+    "get started": "Get Started",
+    "join community": "Join the Community",
+    "trusted by": "Trusted by",
+    "creators and professionals": "creators and professionals.",
+
+    "powerful features": "Powerful Features",
+    "build your portfolio": "Build your portfolio your way, no limits attached",
+    "build you portfolio description": "Whether you prefer minimalism or something bold, you can fully personalize your site — from layout to background — with an intuitive drag-and-drop editor and flexible design options.",
+
+    "drag & drop": "Drag & Drop",
+    "drag & drop description": "Effortlessly build your portfolio by dragging and dropping pre-made sections. No coding, no stress — just creative freedom.",
+
+    "custom colors": "Custom Colors",
+    "custom colors description": "Choose the colors that match your style or personal brand. Easily fine-tune text, background, and accent colors with a few clicks.",
+
+    "background control": "Background Control",
+    "background control description": "Personalize each section with solid colors, gradients, or custom background images. Make every part of your portfolio stand out.",
+
+    "modular sections": "Modular Sections",
+    "modular sections description": "Add, remove, rearrange, and customize individual sections like 'About', 'Projects', or 'Testimonials' — your portfolio is built your way.",
+
+    "multiple styles & layouts": "Multiple Styles & Layouts",
+    "multiple styles & layouts description": "Pick from modern, minimalistic, or creative layout templates. Your portfolio adapts to your aesthetic — not the other way around.",
+
+    "responsive design": "Responsive Design",
+    "responsive design description": "Your portfolio looks great on any screen size — from phones to desktops — ensuring the best experience for every visitor."
   }
 }
